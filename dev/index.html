@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Google Font -->
+    <script src="https://kit.fontawesome.com/7ab68a398d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -17,16 +18,8 @@
 
 <!-- HEADER -->
 <header class="container">
-  <div class="content">
-
-    <!-- SEARCH -->
-    <div class="search">
-      <form action="#">
-        <input type="text" id="input">
-        <button><img src="/deploy/img/ico/search.svg" alt="Search"></button>
-      </form>
-    </div>
-
+  <div class="header">
+    <a id="logo" href="#">SHOFUSO</a>
                     <!-- Mobile Nav Icon, Won't Display on Desktop & Up-->
                   <aside class="burger-container">
                       <button id="burger-btn">
@@ -48,15 +41,15 @@
                                       <li><a href="#">Link 4</a></li>
                                     </ul>
                                 </nav>
-  </div>
-</header>
+
+        <!-- SEARCH -->
+        <div class="search">
+          <img src="/deploy/img/ico/search.svg" alt="Search">
+        </div>
 
 <!-- HERO -->
-<section class="HERO">
-
-  <div class="hero-img">
-    <img src="/deploy/img/hero.jpg" alt="Hero Image">
-  </div>
+<div class="hero">
+  <img src="/deploy/img/hero.jpg" alt="Hero Image">
 
   <div class="hero-info">
     <img src="/deploy/img/ico/play.svg" alt="Play Button">
@@ -64,7 +57,10 @@
     <button>Purchase Ticket</button>
   </div>
 
-</section>
+</div>
+
+  </div>
+</header>
 
 <!-- NAVIGATION OPTIONS -->
 <section class="OPTION">

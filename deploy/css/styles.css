@@ -375,13 +375,17 @@ template {
     Typography
 ============= */
 body {
+  font-family: "Libre Baskerville", serif;
+  font-family: "Montserrat", sans-serif;
+}
+body h2 {
+  font-family: "Libre Baskerville", serif;
+}
+body h3 {
   font-family: "Montserrat", sans-serif;
 }
 body p {
-  font-weight: 100;
-}
-body h1 {
-  font-family: "Libre+Baskerville";
+  font-family: "Montserrat", sans-serif;
 }
 
 /* =============
@@ -411,37 +415,226 @@ textarea {
 /* =============
     Header
 ============= */
+#logo {
+  font-family: "Libre Baskerville", serif;
+  color: #FBFCFF;
+  font-size: 5vh;
+  font-weight: bold;
+}
+
 /* =============
     Footer
 ============= */
-/* =============
-  HERO
-============= */
-.HERO .hero-img {
+.content img {
+  width: 20%;
+}
+.content ul {
   width: 100%;
+  list-style: none;
+  display: grid;
+  align-content: center;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas: "a1 a1 a2 a2 a3 a3";
+}
+.content ul .p1 {
+  grid-area: a1;
+}
+.content ul .p2 {
+  grid-area: a2;
+}
+.content ul .p3 {
+  grid-area: a3;
 }
 
 /* =============
   OPTION
 ============= */
+.OPTION {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  color: #69402C;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.OPTION ul {
+  display: grid;
+  list-style: none;
+  align-content: center;
+  text-align: center;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas: "a1 a1 a2 a2 a3 a3" ". a4 a4 a5 a5 .";
+  gap: 20px;
+}
+.OPTION ul .p1 {
+  grid-area: a1;
+}
+.OPTION ul .p2 {
+  grid-area: a2;
+}
+.OPTION ul .p3 {
+  grid-area: a3;
+}
+.OPTION ul .p4 {
+  grid-area: a4;
+}
+.OPTION ul .p5 {
+  grid-area: a5;
+}
+.OPTION ul img {
+  width: 100%;
+}
+
 /* =============
   NOTICE
 ============= */
+.NOTICE {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #605856;
+}
+.NOTICE button {
+  color: #A15934;
+  background-color: #FBFCFF;
+  font-weight: 700;
+  padding: 20px;
+  width: flex;
+  text-decoration: none;
+  border: 3px solid #A15934;
+  border-radius: 5px;
+  text-align: center;
+}
+.NOTICE button:hover {
+  cursor: pointer;
+  color: #443B3B;
+}
+
 /* =============
   HOUR
 ============= */
+.HOUR {
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  color: #605856;
+}
+.HOUR img {
+  width: 100%;
+}
+
 /* =============
   EVENT
 ============= */
+.EVENT {
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  color: #605856;
+}
+.EVENT img {
+  width: 100%;
+}
+.EVENT button {
+  color: #A15934;
+  background-color: #FBFCFF;
+  font-weight: 700;
+  padding: 20px;
+  width: flex;
+  text-decoration: none;
+  border: 3px solid #A15934;
+  border-radius: 5px;
+  text-align: center;
+}
+.EVENT button:hover {
+  cursor: pointer;
+  color: #443B3B;
+}
+
 /* =============
   TICKET
 ============= */
+.TICKET {
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  color: #605856;
+}
+.TICKET button {
+  color: #A15934;
+  background-color: #FBFCFF;
+  font-weight: 700;
+  padding: 20px;
+  width: flex;
+  text-decoration: none;
+  border: 3px solid #A15934;
+  border-radius: 5px;
+  text-align: center;
+}
+.TICKET button:hover {
+  cursor: pointer;
+  color: #443B3B;
+}
+
 /* =============
   TOUR
 ============= */
+.TOUR {
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  color: #605856;
+}
+.TOUR button {
+  color: #A15934;
+  background-color: #FBFCFF;
+  font-weight: 700;
+  padding: 20px;
+  width: flex;
+  text-decoration: none;
+  border: 3px solid #A15934;
+  border-radius: 5px;
+  text-align: center;
+}
+.TOUR button:hover {
+  cursor: pointer;
+  color: #443B3B;
+}
+.TOUR img {
+  width: 100%;
+}
+
 /* =============
   PHOTO
 ============= */
+.PHOTO {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  color: #605856;
+}
+
 /* =============
   HISTORY
 ============= */
+.HISTORY {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  color: #605856;
+}
+.HISTORY button {
+  color: #A15934;
+  background-color: #FBFCFF;
+  font-weight: 700;
+  padding: 20px;
+  width: flex;
+  text-decoration: none;
+  border: 3px solid #A15934;
+  border-radius: 5px;
+  text-align: center;
+}
+.HISTORY button:hover {
+  cursor: pointer;
+  color: #443B3B;
+}

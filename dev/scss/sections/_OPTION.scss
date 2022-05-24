@@ -1,3 +1,48 @@
 /* =============
   OPTION
 ============= */
+
+.OPTION{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  color: $triassic;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  ul{
+    display: grid;
+    list-style: none;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-areas: 
+    "a1 a1 a2 a2 a3 a3"
+    ". a4 a4 a5 a5 .";
+    gap: 20px;
+
+    .p1{
+          grid-area: a1;
+      }
+
+    .p2{
+            grid-area: a2;
+        }
+
+    .p3{
+            grid-area: a3;
+        }
+
+    .p4{
+            grid-area: a4;
+        }
+
+    .p5{
+            grid-area: a5;
+    }
+
+    img{
+      width: 100%;
+    }
+  }
+
+}
