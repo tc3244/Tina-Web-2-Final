@@ -5,25 +5,213 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Starting Template</title>
+    <title>Tina-Web-2-Final</title>
   </head>
 
   <body>
 
-    <h1>Hello World!</h1>
+<!-- HEADER -->
+<header class="container">
+  <div class="content">
 
-    <!-- <header>
+    <!-- SEARCH -->
+    <div class="search">
+      <form action="#">
+        <input type="text" id="input">
+        <button><img src="/deploy/img/ico/search.svg" alt="Search"></button>
+      </form>
+    </div>
 
-    </header>
+                    <!-- Mobile Nav Icon, Won't Display on Desktop & Up-->
+                  <aside class="burger-container">
+                      <button id="burger-btn">
+                          <i class="fa-solid fa-bars"></i>
+                      </button>
+                  </aside>
 
-    <section>
+                                  <!-- Menu Alters Between Mobile/Tablet & Desktop-->
+                                  <nav id="main-menu">
+                                    <aside class="hide-for-lg">
+                                      <button id="close-btn">
+                                            <i class="fa-solid fa-xmark-large"></i>
+                                      </button> 
+                                    </aside>
+                                    <ul>
+                                      <li><a href="#">Link 1</a></li>
+                                      <li><a href="#">Link 2</a></li>
+                                      <li><a href="#">Link 3</a></li>
+                                      <li><a href="#">Link 4</a></li>
+                                    </ul>
+                                </nav>
+  </div>
+</header>
 
-    </section>
+<!-- HERO -->
+<section class="HERO">
 
-    <footer>
+  <div class="hero-img">
+    <img src="/deploy/img/hero.jpg" alt="Hero Image">
+  </div>
 
-    </footer> -->
+  <div class="hero-info">
+    <img src="/deploy/img/ico/play.svg" alt="Play Button">
+    <p>Shofuso Scheduled Opening Saturday, March 20.</p>
+    <button>Purchase Ticket</button>
+  </div>
+
+</section>
+
+<!-- NAVIGATION OPTIONS -->
+<section class="OPTION">
+  <div class="option">
+    <ul>
+      <li class="p1"><img src="/deploy/img/ico/ticket.svg" alt="TICKET">Buy Tickets</li>
+      <li class="p2"><img src="/deploy/img/ico/clock.svg" alt="HOURS">Hours</li>
+      <li class="p3"><img src="/deploy/img/ico/camera.svg" alt="PHOTO">Photography Rentals</li>
+      <li class="p4"><img src="/deploy/img/ico/book.svg" alt="HISTORY">Shofuso's History</li>
+      <li class="p5"><img src="/deploy/img/ico/group.svg" alt="TOUR">Group Tour</li>
+    </ul>
+  </div>
+</section>
+
+<!-- COVID NOTICE -->
+<section class="NOTICE">
+  <div class="covid">
+    <p>Shofuso is expected to open for the 2021 season on Saturday, March 20 with enforced guidelines put in place by the City of Philadelphia to limit the spread of Covid-19.
+      The health and safety of our visitors and staff is always our top priority and we ensure that a great experience still happens even with Covid-19 limitations...</p>
+    <button>Read More</button>
+  </div>
+</section>
+
+<!-- HOUR OF OPERATION -->
+<section class="HOUR">
+  <div class="hour">
+    <img src="/deploy/img/img1.jpg" alt="Hours of Operation">
+    <h2>Hours of Operation</h2>
+      <h3>March 20 - October 31:</h3>
+      <p>Wednesday - Sunday 11am to 5pm</p>
+      <h3>November 6 - December 12:</h3>
+      <p>Saturday and Sunday 10am to 4pm</p>
+  </div>
+</section>
+
+<!-- SPRING EVENT -->
+<section class="EVENT">
+  <div class="event">
+    <img src="/deploy/img/img2.jpg" alt="Spring Starts at Shofuso">
+    <h2>Spring Starts at Shofuso!</h2>
+    <p>In Japan, cherry blossoms are the ephemeral marker of Spring’s arrival, appreciated and admired by
+      picnicking under the cherry treesand walking through groves andallees of the pink blossoms...</p>
+    <button>Read More</button>
+  </div>
+</section>
+
+<!-- TICKET -->
+<section class="TICKET">
+
+  <div class="ticket">
+    <h2>TICKETS</h2>
+      <h3>Tickets purchased for the 2021 season are valid through December 12, 2021. Tickets are nonrefundable.</h3>
+      <p>Discounts for students, ACCESS Cardholders and others will be honored onsite at the ticket window. Advance
+        ticket sales for these discounted rates are not available at this time.</p>
+      <button>Learn More</button>
+  </div>
+
+    <!-- Price -->
+    <div class="price">
+
+      <p>Adult</p>
+      <p>$12.00</p>
+      <form>
+        <input type="number" min="1" max="100">
+      </form>
+
+      <p>Child(5-17)</p>
+      <p>$8.00</p>
+      <form>
+        <input type="number" min="1" max="100">
+      </form>
+
+      <p>Senior(65+)</p>
+      <p>$8.00</p>
+      <form>
+        <input type="number" min="1" max="100">
+      </form>
+
+      <button>ADD TO CART</button>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- GROUP TOUR -->
+<section class="TOUR">
+  <div class="tour">
+    <h2>Group Tour</h2>
+    <p>Discounts for students, ACCESS Cardholders and others will be honored onsite at the ticket window. Advance ticket sales for these discounted rates are not available at this time.</p>
+    <img src="/deploy/img/img3.jpg" alt="tour">
+  </div>
+
+  <div class="capacity">
+    <h2>Capacity</h2>
+    <p>Our minimum reservation is for 5 people and the maximum is ten people plus two additional chaperones. Reservations for groups of less than 5 people will be charged as if 5 visitors were present...</p>
+    <button>Read More</button>
+    <img src="/deploy/img/img4.jpg" alt="capacity">
+  </div>
+
+</section>
+
+<!-- PHOTOGRAPHY RENTAL -->
+<section class="PHOTO">
+  <div class="photo">
+    <h2>Photography Rentals</h2>
+    <p>Shofuso is available for private photo or video shoots at the discretion of staff. Sessions may not occur during regular operating hours. The site will not be closed to the public early to accommodate a session.</p>
+    <p>Please email rentals@japanphilly.org for availability.</p>
+  </div>
+</section>
+
+<!-- HISTORY -->
+<section class="HISTORY">
+  <div class="history">
+    <h2>Shufoso's History</h2>
+      <p>Designed by architect Junzo Yoshimura, Shofuso was built in Japan in 1953 using traditional techniques and materials. It was shipped to New York and exhibited in the courtyard of the Museum of Modern Art in New York before moving to West Fairmount Park in 1958. In 2007, international artist Hiroshi Senju, inspired by the garden’s waterfall, donated 20 contemporary murals to Shofuso, which are permanently displayed inside the house. This historic site and museum includes a hill and pond garden with a tiered waterfall, island, and koi fish, a tea garden featuring a traditional tea house, and a courtyard garden leading to a bathhouse.</p>
+      <button>Learn More</button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="container">
+  <div class="content">
+
+    <div class="logo">
+      <img src="/deploy/img/ico/Shofuso.png" alt="logo">
+      <h1>SHOFUSO</h1>
+    </div>
+
+    <div class="social">
+      <ul>
+        <li class="p1"><img src="/deploy/img/ico/twi.svg" alt="Twitter"></li>
+        <li class="p2"><img src="/deploy/img/ico/fb.svg" alt="Facebook"></li>
+        <li class="p3"><img src="/deploy/img/ico/ig.svg" alt="Instagram"></li>
+      </ul>
+    </div>
+
+    <div class="logo">
+      <p><span>Contact Us: info@japanphilly.org</span></p>
+      <p><span class="address">5070 Parkside Avenue, Suite 1404<br>Philadelphia, PA 19131</span></p>
+      <p><span>Office phone: 267-237-3550</span></p>
+      <p><span>Shofuso phone: 215-878-5097</span></p>
+      <p>All Rights Reserved</p>
+    </div>
+
+  </div>
+</footer>
 
     <script src="js/scripts-min.js"></script>
   </body>

@@ -1,4 +1,3 @@
-able File  221 lines (180 sloc)  6.44 KB
 <!doctype html>
 <html lang="en">
 
@@ -18,61 +17,64 @@ able File  221 lines (180 sloc)  6.44 KB
 
 <!-- HEADER -->
 <header class="container">
+  <div class="content">
 
-  <!-- LOGO -->
-  <div class="logo">
+    <!-- SEARCH -->
+    <div class="search">
+      <form action="#">
+        <input type="text" id="input">
+        <button><img src="/deploy/img/ico/search.svg" alt="Search"></button>
+      </form>
+    </div>
 
+                    <!-- Mobile Nav Icon, Won't Display on Desktop & Up-->
+                  <aside class="burger-container">
+                      <button id="burger-btn">
+                          <i class="fa-solid fa-bars"></i>
+                      </button>
+                  </aside>
+
+                                  <!-- Menu Alters Between Mobile/Tablet & Desktop-->
+                                  <nav id="main-menu">
+                                    <aside class="hide-for-lg">
+                                      <button id="close-btn">
+                                            <i class="fa-solid fa-xmark-large"></i>
+                                      </button> 
+                                    </aside>
+                                    <ul>
+                                      <li><a href="#">Link 1</a></li>
+                                      <li><a href="#">Link 2</a></li>
+                                      <li><a href="#">Link 3</a></li>
+                                      <li><a href="#">Link 4</a></li>
+                                    </ul>
+                                </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="HERO">
+
+  <div class="hero-img">
+    <img src="/deploy/img/hero.jpg" alt="Hero Image">
   </div>
 
-  <!-- SEARCH -->
-  <div class="search">
-    <form action="#">
-      <input type="text" id="input">
-      <button><img src="/deploy/img/SVG/search.svg" alt="Search"></button>
-    </form>
-  </div>
-
-                  <!-- Mobile Nav Icon, Won't Display on Desktop & Up-->
-                <aside class="burger-container">
-                    <button id="burger-btn">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                </aside>
-
-                                <!-- Menu Alters Between Mobile/Tablet & Desktop-->
-                                <nav id="main-menu">
-                                  <aside class="hide-for-lg">
-                                     <button id="close-btn">
-                                          <i class="fa-solid fa-xmark-large"></i>
-                                     </button> 
-                                  </aside>
-                                  <ul>
-                                     <li><a href="#">Link 1</a></li>
-                                     <li><a href="#">Link 2</a></li>
-                                     <li><a href="#">Link 3</a></li>
-                                     <li><a href="#">Link 4</a></li>
-                                  </ul>
-                              </nav>
-
-  <!-- HERO -->
-  <div class="hero">
-    <img src="" alt="Hero Image">
-    <img src="" alt="Play Button">
+  <div class="hero-info">
+    <img src="/deploy/img/ico/play.svg" alt="Play Button">
     <p>Shofuso Scheduled Opening Saturday, March 20.</p>
     <button>Purchase Ticket</button>
-  </section>
+  </div>
 
-</header>
+</section>
 
 <!-- NAVIGATION OPTIONS -->
 <section class="OPTION">
   <div class="option">
     <ul>
-      <li class="p1"><img src="" alt="TICKET">Buy Tickets</li>
-      <li class="p2"><img src="" alt="HOURS">Hours</li>
-      <li class="p3"><img src="" alt="PHOTO">Photography Rentals</li>
-      <li class="p4"><img src="" alt="HISTORY">Shofuso's History</li>
-      <li class="p5"><img src="" alt="TOUR">Group Tour</li>
+      <li class="p1"><img src="/deploy/img/ico/ticket.svg" alt="TICKET">Buy Tickets</li>
+      <li class="p2"><img src="/deploy/img/ico/clock.svg" alt="HOURS">Hours</li>
+      <li class="p3"><img src="/deploy/img/ico/camera.svg" alt="PHOTO">Photography Rentals</li>
+      <li class="p4"><img src="/deploy/img/ico/book.svg" alt="HISTORY">Shofuso's History</li>
+      <li class="p5"><img src="/deploy/img/ico/group.svg" alt="TOUR">Group Tour</li>
     </ul>
   </div>
 </section>
@@ -89,7 +91,7 @@ able File  221 lines (180 sloc)  6.44 KB
 <!-- HOUR OF OPERATION -->
 <section class="HOUR">
   <div class="hour">
-    <img src="" alt="Hours of Operation">
+    <img src="/deploy/img/img1.jpg" alt="Hours of Operation">
     <h2>Hours of Operation</h2>
       <h3>March 20 - October 31:</h3>
       <p>Wednesday - Sunday 11am to 5pm</p>
@@ -101,7 +103,7 @@ able File  221 lines (180 sloc)  6.44 KB
 <!-- SPRING EVENT -->
 <section class="EVENT">
   <div class="event">
-    <img src="" alt="Spring Starts at Shofuso">
+    <img src="/deploy/img/img2.jpg" alt="Spring Starts at Shofuso">
     <h2>Spring Starts at Shofuso!</h2>
     <p>In Japan, cherry blossoms are the ephemeral marker of Spring’s arrival, appreciated and admired by
       picnicking under the cherry treesand walking through groves andallees of the pink blossoms...</p>
@@ -153,14 +155,14 @@ able File  221 lines (180 sloc)  6.44 KB
   <div class="tour">
     <h2>Group Tour</h2>
     <p>Discounts for students, ACCESS Cardholders and others will be honored onsite at the ticket window. Advance ticket sales for these discounted rates are not available at this time.</p>
-    <img src="" alt="tour">
+    <img src="/deploy/img/img3.jpg" alt="tour">
   </div>
 
   <div class="capacity">
     <h2>Capacity</h2>
     <p>Our minimum reservation is for 5 people and the maximum is ten people plus two additional chaperones. Reservations for groups of less than 5 people will be charged as if 5 visitors were present...</p>
     <button>Read More</button>
-    <img src="" alt="capacity">
+    <img src="/deploy/img/img4.jpg" alt="capacity">
   </div>
 
 </section>
@@ -188,15 +190,15 @@ able File  221 lines (180 sloc)  6.44 KB
   <div class="content">
 
     <div class="logo">
-      <img src="" alt="logo">
+      <img src="/deploy/img/ico/Shofuso.png" alt="logo">
       <h1>SHOFUSO</h1>
     </div>
 
     <div class="social">
       <ul>
-        <li class="p1"><img src="" alt="Twitter"></li>
-        <li class="p2"><img src="" alt="Facebook"></li>
-        <li class="p3"><img src="" alt="Instagram"></li>
+        <li class="p1"><img src="/deploy/img/ico/twi.svg" alt="Twitter"></li>
+        <li class="p2"><img src="/deploy/img/ico/fb.svg" alt="Facebook"></li>
+        <li class="p3"><img src="/deploy/img/ico/ig.svg" alt="Instagram"></li>
       </ul>
     </div>
 
