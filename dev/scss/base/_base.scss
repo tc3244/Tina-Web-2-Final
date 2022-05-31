@@ -20,4 +20,27 @@
     .content{
         grid-area:content;
     }
+
+    //navigation
+    
+    ul{
+        margin: 0;
+        padding: 0;
+    
+        li{
+            list-style: none;
+        }
+    }
+    
+    
+    .show-menu{
+        display: block !important;
+    }
+    
+    
+    .hide-for-lg{
+        @include lg{
+            display: none;
+        }
+    }
 }

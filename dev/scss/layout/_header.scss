@@ -2,9 +2,57 @@
     Header
 ============= */
 
-#logo {
-    font-family: 'Libre Baskerville', serif;
-    color: $palegrey;
-    font-size: 5vh;
-    font-weight: bold;
-  }
+header{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". header .";
+    padding: 24px 0;
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
+    }
+
+    div{
+        grid-area: header;
+
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-areas: "logo burger";
+
+        @include lg{
+            grid-template-areas: "logo nav";
+
+        }
+
+        .logo{
+            font-family: 'Libre Baskerville', serif;
+            color: $palegrey;
+            font-size: 5vh;
+            font-weight: bold;
+        }
+
+        .burger-container{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            @include lg{
+                display: none;
+            }
+
+            button{
+                border: none;
+                background-color: transparent;
+                color: $brown;
+                font-size: 20px;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
