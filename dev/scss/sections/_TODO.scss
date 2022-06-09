@@ -1,48 +1,53 @@
 /* =============
-  TODO
+  TOUR
 ============= */
 
 .TODO{
+
+  padding-top: 100px;
+  padding: 40px;
+  color: $tenseterraco;
+
   font-family: 'Libre Baskerville', serif;
-  font-weight: 700;
-  color: $triassic;
-  margin-top: 100px;
-  margin-bottom: 100px;
 
-  ul{
-    display: grid;
-    list-style: none;
-    align-content: center;
-    text-align: center;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-areas: 
-    "a1 a1 a2 a2 a3 a3"
-    ". a4 a4 a5 a5 .";
-    gap: 20px;
-
-    .p1{
-          grid-area: a1;
-      }
-
-    .p2{
-            grid-area: a2;
-        }
-
-    .p3{
-            grid-area: a3;
-        }
-
-    .p4{
-            grid-area: a4;
-        }
-
-    .p5{
-            grid-area: a5;
-    }
-
-    img{
-      width: 100%;
-    }
+  h3{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    padding-top: 36px;
   }
 
+  p{
+    font-weight: 700;
+    font-size: 16px;
+    color: $lahar;
+  }
+
+  border-top: 10px solid $zincluster;
+  border-bottom: 10px solid $zincluster;
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+  button{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:50%;
+    color: $tenseterraco;
+    background-color: $palegrey;
+    font-weight: 700;
+    padding: 20px;
+    width:flex;
+    text-decoration: none;
+    border: 3px solid $tenseterraco;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  button{
+      &:hover{
+          cursor: pointer;
+          color: $zincluster;
+      }
+}
 }

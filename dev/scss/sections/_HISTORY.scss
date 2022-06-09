@@ -3,12 +3,31 @@
 ============= */
 
 .HISTORY{
-  padding: 20px;
-  margin: 20px;
-  text-align: center;
-  color: $lahar;
+
+  h2{
+    color: $zincluster;
+    text-align: center;
+    padding: 2px;
+    margin-left: 15px;
+    margin-top: 100px;
+    margin-bottom: 36px;
+  }
+
+  
+  p{
+    text-align: center;
+    color: $lahar;
+    padding: 2px;  
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
   button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
     color: $tenseterraco;
     background-color: $palegrey;
     font-weight: 700;
@@ -26,5 +45,9 @@
           color: $zincluster;
       }
   }
+
+  border-top: 10px solid $lahar;
+  border-bottom: 10px solid $lahar;
+  margin-bottom: 100px;
   
 }

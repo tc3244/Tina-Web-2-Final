@@ -2,37 +2,45 @@
   HERO
 ============= */
 
-.HERO {
-  background-image: url("/deploy/img/hero.jpg");
-  height: 80vh;
-  background-position: center;
-  background-size: cover;
-  padding: 20px;
-  margin: 20px;
-  text-align: left;
-  color: $lahar;
+.hero{
 
-  img{
-    width: 100%;
-  }
+    background-image: url(/deploy/img/hero.jpg);
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 
-  button{
-    color: $tenseterraco;
-    background-color: $palegrey;
-    font-weight: 700;
-    padding: 20px;
-    width:flex;
-    text-decoration: none;
-    border: 3px solid $tenseterraco;
-    border-radius: 5px;
     text-align: center;
-  }
 
-  button{
-      &:hover{
-          cursor: pointer;
-          color: $zincluster;
-      }
-  }
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: $white;
+    filter: drop-shadow(2px 2px 2px #443B3B);
 
+    img{
+      filter: invert(100);
+      width: 15%;
+    }
+
+    button{
+      font-family: 'Montserrat', sans-serif;
+      color: $palegrey;
+      background-color: transparent;
+      font-weight: 700;
+      padding: 20px;
+      text-decoration: none;
+      border: 3px solid $palegrey;
+      border-radius: 5px;
+      text-align: center;
+      filter: drop-shadow(2px 2px 2px #443B3B);
+    }
+  
+    button{
+        &:hover{
+            cursor: pointer;
+            color: $tenseterraco;
+        }
+    }
 }

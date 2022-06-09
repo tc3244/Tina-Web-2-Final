@@ -19,7 +19,7 @@
 <!-- HEADER -->
 <header class="container">
   <div class="header">
-    <a id="logo" href="#">SHOFUSO</a>
+    <a id="logo">SHOFUSO</a>
                     <!-- Mobile Nav Icon, Won't Display on Desktop & Up-->
                   <aside class="burger-container">
                       <button id="burger-btn">
@@ -35,17 +35,12 @@
                                       </button> 
                                     </aside>
                                     <ul>
-                                      <li><a href="#">Link 1</a></li>
-                                      <li><a href="#">Link 2</a></li>
-                                      <li><a href="#">Link 3</a></li>
-                                      <li><a href="#">Link 4</a></li>
+                                      <li><a href="#">Tickets</a></li>
+                                      <li><a href="#">Hours</a></li>
+                                      <li><a href="#">Photogrpahy</a></li>
+                                      <li><a href="#">About Us</a></li>
                                     </ul>
                                 </nav>
-
-        <!-- SEARCH -->
-        <div class="search">
-          <img src="/deploy/img/ico/search.svg" alt="Search">
-        </div>
 
   </div>
 </header>
@@ -53,9 +48,11 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-info">
-    <img src="/deploy/img/ico/play.svg" alt="Play Button">
-    <p>Shofuso Scheduled Opening Saturday, March 20.</p>
-    <button>Purchase Ticket</button>
+    <div class="hero-detail">
+      <img src="/deploy/img/ico/play.svg" alt="Play Button">
+      <p>Shofuso Scheduled Opening<br>Saturday, March 20.</br></p>
+      <button>Purchase Ticket</button>
+    </div>
   </div>
 </section>
 
@@ -118,23 +115,29 @@
     <!-- Price -->
     <div class="price">
 
-      <p>Adult</p>
-      <p>$12.00</p>
-      <form>
-        <input type="number" min="1" max="100">
-      </form>
+      <div class="adult">
+        <p class="p1">Adult</p>
+        <p class="p2">$12.00</p>
+        <form>
+          <input type="number" min="1" max="100">
+        </form>
+      </div>
 
-      <p>Child(5-17)</p>
-      <p>$8.00</p>
-      <form>
-        <input type="number" min="1" max="100">
-      </form>
+      <div class="child">
+        <p>Child(5-17)</p>
+        <p>$8.00</p>
+        <form>
+          <input type="number" min="1" max="100">
+        </form>
+      </div>
 
-      <p>Senior(65+)</p>
-      <p>$8.00</p>
-      <form>
-        <input type="number" min="1" max="100">
-      </form>
+      <div class="senior">
+        <p>Senior(65+)</p>
+        <p>$8.00</p>
+        <form>
+          <input type="number" min="1" max="100">
+        </form>
+      </div>
 
       <button>ADD TO CART</button>
 
@@ -195,12 +198,12 @@
       </ul>
     </div>
 
-    <div class="logo">
+    <div class="contacts">
       <p><span>Contact Us: info@japanphilly.org</span></p>
       <p><span class="address">5070 Parkside Avenue, Suite 1404<br>Philadelphia, PA 19131</span></p>
       <p><span>Office phone: 267-237-3550</span></p>
       <p><span>Shofuso phone: 215-878-5097</span></p>
-      <p>All Rights Reserved</p>
+      <p class="ARR">All Rights Reserved</p>
     </div>
 
   </div>

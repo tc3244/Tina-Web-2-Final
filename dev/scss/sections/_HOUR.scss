@@ -3,13 +3,32 @@
 ============= */
 
 .HOUR{
+
   img{
     width: 100%;
   }
 
-  padding: 20px;
-  margin: 20px;
   text-align: left;
+
+h2{
+  color: $zincluster;
+  padding: 2px;
+  margin-left: 15px;
+  margin-top: 100px;
+}
+
+h3{
+  color: $zincluster;
+  padding: 2px;
+  margin-left: 15px;
+}
+
+p{
   color: $lahar;
+  padding: 2px;  
+  margin-left: 15px;
+}
+
+margin-bottom: 100px;
 
 }

@@ -3,32 +3,53 @@
 ============= */
 
 .EVENT{
-  img{
-    width: 100%;
+
+    img{
+      width: 100%;
+    }
+  
+    text-align: left;
+  
+  h2{
+    color: $zincluster;
+    padding: 2px;
+    margin-left: 15px;
+    margin-top: 100px;
   }
-
-  padding: 20px;
-  margin: 20px;
-  text-align: left;
-  color: $lahar;
-
-  button{
-    color: $tenseterraco;
-    background-color: $palegrey;
-    font-weight: 700;
-    padding: 20px;
-    width:flex;
-    text-decoration: none;
-    border: 3px solid $tenseterraco;
-    border-radius: 5px;
-    text-align: center;
+  
+  h3{
+    color: $zincluster;
+    padding: 2px;
+    margin-left: 15px;
   }
-
-  button{
-      &:hover{
-          cursor: pointer;
-          color: $zincluster;
-      }
+  
+  p{
+    color: $lahar;
+    padding: 2px;  
+    margin-left: 15px;
   }
+  
+  margin-bottom: 100px;
 
-}
+    button{
+      padding: 2px;  
+      margin-left: 15px;
+      margin-top: 50px;
+      color: $tenseterraco;
+      background-color: $palegrey;
+      font-weight: 700;
+      padding: 20px;
+      width:flex;
+      text-decoration: none;
+      border: 3px solid $tenseterraco;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    button{
+        &:hover{
+            cursor: pointer;
+            color: $zincluster;
+        }
+    }
+  }

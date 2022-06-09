@@ -3,11 +3,14 @@
 ============= */
 
 .NOTICE{
+
+  margin-top: 16px;
   padding: 20px;
   margin: 20px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: $lahar;
+
 
   button{
     color: $tenseterraco;
@@ -19,6 +22,8 @@
     border: 3px solid $tenseterraco;
     border-radius: 5px;
     text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
 
   button{
@@ -27,5 +32,9 @@
           color: $zincluster;
       }
   }
+
+  border-top: 10px solid $zincluster;
+  border-bottom: 10px solid $zincluster;
+  margin-bottom: 100px;
 
 }

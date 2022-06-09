@@ -3,9 +3,45 @@
 ============= */
 
 .TICKET2{
-  padding: 20px;
-  margin: 20px;
-  text-align: left;
-  color: $lahar;
+
+  .line1 {
+    margin-bottom: 5px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+  }
+
+  img{
+    width: 100%;
+    vertical-align: top;
+    opacity: 85%;
+  }
+
+  .line1 .price {
+    box-sizing: border-box;
+    padding: 70px 0 67px;
+    left: 50%;
+    height: 217px;
+    display: block;
+    top: 50%;
+    overflow: hidden;
+    margin-top: -108px;
+    margin-left: -104px;
+    font: bold 20px/20px 'Open Sans', sans-serif;
+    color: $palegrey;
+    width: 217px;
+    position: absolute;
+    border: 5px solid $palegrey;
+    border-radius: 500px;
+}
+
+.line1 .price span+span {
+  padding-top: 14px;
+  font-size: 36px;
+  display: block;
+}
+
   
+
 }

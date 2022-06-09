@@ -3,9 +3,39 @@
 ============= */
 
 .HISTORY2{
-  padding: 20px;
-  margin: 20px;
-  text-align: center;
-  color: $lahar;
-  
+
+  .history-container {
+    padding-top: 64px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .history-photo{
+      padding: 0;
+      vertical-align: middle;
+      img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    
+    .history-info {
+      width: 80%;
+      background: $tenseterraco;
+      position: relative;
+      color: $palegrey;
+      padding: 10px;
+      margin: 0 auto;
+      margin-bottom: 64px;
+      font-size: 100%zs;
+    }
+    
+}
+
+  div {
+    display: block;
+}
+
 }

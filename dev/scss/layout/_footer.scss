@@ -3,18 +3,42 @@
 ============= */
 
 .content{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: $lahar;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: $palegrey;
+    text-align: center;
+
+    .ARR{
+        padding-top: 30px;
+        border-top: 20px solid $white;
+    }
 
     img{
         width: 20%;
     }
+
+    .social img{
+        filter: invert(100);
+    }
+
     ul{
+
+        padding-top: 30px;
+        border-top: 20px solid $white;
+
         width: 100%;
         list-style: none;
         display: grid;
         align-content: center;
-        grid-template-columns: repeat(6,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-areas: 
-        "a1 a1 a2 a2 a3 a3";
+        "a1 a2 a3";
 
         .p1{
             grid-area: a1;
@@ -28,4 +52,5 @@
             grid-area: a3;
         }
     }    
+
 }

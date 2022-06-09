@@ -8,7 +8,18 @@
   text-align: left;
   color: $lahar;
 
+  h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
   button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
     color: $tenseterraco;
     background-color: $palegrey;
     font-weight: 700;
@@ -27,4 +38,66 @@
       }
   }
   
+  border-top: 10px solid $zincluster;
+  border-bottom: 10px solid $zincluster;
+  margin-bottom: 100px;
+
+  .price{
+    .adult{
+
+      p{
+        text-align: center;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      form{
+        margin-left:45%;
+        margin-right:50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      border-top: 5px solid $zincluster;
+      border-bottom: 5px solid $zincluster;
+    }
+
+    .child{
+
+      p{
+        text-align: center;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      form{
+        margin-left:45%;
+        margin-right:50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+    }
+
+    .senior{
+      p{
+        text-align: center;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      form{
+        margin-left:45%;
+        margin-right:50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      border-top: 5px solid $zincluster;
+      border-bottom: 5px solid $zincluster;
+    }
+  }
 }
